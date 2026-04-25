@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Physics Challenge Zone</title>
+</head>
+
+<body>
+
+  <h1>⚡ Physics Challenge Zone</h1>
+
+  <p>Question: What is the SI unit of Force?</p>
+
+  <button onclick="checkAnswer('A')">A) Joule</button>
+  <button onclick="checkAnswer('B')">B) Newton</button>
+  <button onclick="checkAnswer('C')">C) Watt</button>
+  <button onclick="checkAnswer('D')">D) Pascal</button>
+
+  <p id="result"></p>
+
+  <script>
+    function checkAnswer(answer) {
+      if(answer === 'B') {
+        document.getElementById("result").innerHTML = "✅ Correct!";
+      } else {
+        document.getElementById("result").innerHTML = "❌ Wrong! Try again.";
+      }
+    }
+  </script>
+
+</body>
+</html>
