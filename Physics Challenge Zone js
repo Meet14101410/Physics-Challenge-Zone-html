@@ -1,0 +1,10 @@
+function checkAnswer(answer) {
+  let result = document.getElementById("result");
+
+  if (answer === "B") {
+    result.innerHTML = "✅ Correct! Newton is the SI unit of Force.";
+  } 
+  else {
+    result.innerHTML = "❌ Wrong! Try again.";
+  }
+}
